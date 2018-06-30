@@ -55,7 +55,6 @@ private:
 	{
 		_sockfd = socket(AF_INET, SOCK_STREAM, 0);
 		assert(_sockfd != -1);
-
 		struct sockaddr_in saddr;
 		memset(&saddr, 0, sizeof(saddr));
 		
